@@ -1,2 +1,1 @@
-# sipandu
 # sipandu.io
