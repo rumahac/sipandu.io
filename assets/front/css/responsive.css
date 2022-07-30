@@ -1,0 +1,253 @@
+/* xl Layout: 1280px. */
+@media only screen and (min-width: 1200px) {  
+
+}
+
+/* lg Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+h3 {font-size: 20px;} 
+/* Menu */
+.mainmenu li a {padding: 12px;}
+/* /Menu */
+
+/* About area */
+.about-video-text p {margin-bottom: 15px;}
+/* /About area */
+
+/* Team area */
+.team-member-info .overlay1, 
+.team-member-info .overlay2 {transform: rotate(-9deg);}
+/* /Team area */
+
+/* Contact area */
+.contact-description {margin-bottom: 30px;}
+/* /Contact area */
+
+/* Feature Area */
+.feature-text {margin-right: 80px;}
+.features-text-content.right .feature-text {margin-left: 80px;}
+.features-text-content.margin-top-50 {margin-top: 0;}
+.single-feature-wrap {margin-bottom: 40px;}
+/* /Feature Area */
+
+/* App screen carousel */
+.app-screen-fixed-image {height: 430px;}
+/* /App screen carousel */
+
+}
+
+/* md Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/* Menu */
+.logo a {font-size: 20px;}
+.mainmenu li a {padding: 12px 5px; font-size: 14px;}
+/* /Menu */
+
+/* Hero Area */
+.hero-img {display: none;}
+.single-hero-item {padding-top: 100px; padding-bottom: 100px;}
+/* /Hero Area */
+
+/* About Area */
+.about-video-content {margin-bottom: 30px;}
+/* /About Area */
+
+/* Feature Area */
+.feature-icon {position: relative !important; margin-bottom: 20px;}
+.features-img {text-align: center; margin-top: 40px;}
+.single-feature-wrap {margin-bottom: 40px; text-align: center;}
+.feature-text {margin-right: 0;}
+.features-text-content.right .feature-text {margin-left: 0; margin-right: 0;}
+/* /Feature Area */
+
+/*  Counter area */ 
+.single-counter-area {margin-bottom: 40px;}
+/*  /Counter area  */
+
+/*  Pricing area */ 
+.pricing-table-body {height: 210px; padding: 30px 5px;}
+.pricing-table-head {padding: 30px 5px 0 5px;}
+.pricing-btn .bordered-btn {width: 190px;}
+/*  /Pricing area */ 
+
+/*  Team  */
+.team-content a {font-size: 15px;}
+.team-member-info span {font-size: 12px;}
+.team-member-info .overlay2, 
+.team-member-info .overlay1 {transform: rotate(-12deg);}
+/*  /Team  */
+
+/*  subscribe newsletter  */
+.subscribe-newsletter-area input {width: 70%;}
+/*  /subscribe newsletter  */
+
+/* home contact */
+.contact-description {margin-bottom: 30px;}
+/* /home contact */
+
+}
+
+/* sm Layout: 768px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.section-padding {padding: 50px 0;}
+.colored-bordered-btn {width: 220px; margin-top: 50px;}
+
+/* Google map */
+.map {height: 400px;}
+/* /Google map */
+
+/* home contact */
+.contact-form-area, .contact-address-area {float: none; width: 100%;}
+.home-contact-area {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.contact-address-area {padding-bottom: 60px;}
+/* /home contact */
+
+/*  subscribe newsletter  */
+.subscribe-newsletter-area input {width: 68%;}
+.subscribe-form {padding-top: 32px;}
+.subscribe-newsletter-area {top: -51%;}
+/*  /subscribe newsletter  */
+
+/*  Team */
+.single-team-area  {margin-bottom: 30px;}
+.home-team-wrap {margin-bottom: 150px;}
+/*  /Team  */
+
+/*  Pricing area */ 
+.single-pricing-table-area.active {margin-bottom: 40px; margin-top: 40px;}
+/*  /Pricing area  */
+
+/*  Map suscribe area */ 
+.map-subcribe-text {margin-bottom: 50px;}
+/*  /Map suscribe area  */
+
+/*  Counter area */ 
+.single-counter-area {margin-bottom: 30px;}
+/*  /Counter area  */
+
+/* Feature Area */
+.feature-icon {position: relative !important; margin-bottom: 20px;}
+.features-img {text-align: center; margin-top: 40px;}
+.single-feature-wrap {margin-bottom: 40px; text-align: center;}
+.feature-text {margin-right: 0;}
+.features-text-content.right .feature-text {margin-left: 0; margin-right: 0;}
+/* /Feature Area */
+
+/* Hero Area */
+.hero-img {display: none;}
+.single-hero-item {padding-top: 100px; padding-bottom: 100px;}
+/* /Hero Area */
+
+/* About Area */
+.about-video-content {margin-bottom: 30px;}
+/* /About Area */
+
+/* App screen carousel */
+.app-screen-fixed-image {height: 400px;}
+/* /App screen carousel */
+
+}
+
+/* xs Layout: 768px. */
+@media only screen and (max-width: 575px) {
+.section-padding {padding: 50px 0;}
+.colored-bordered-btn {margin-top: 20px;}
+h1 {font-size: 30px;}
+h2 {font-size: 25px;}
+/* Hero Area */
+.hero-img {display: none;}
+.single-hero-item {padding-top: 100px; padding-bottom: 100px;}
+.hero-btns .bordered-btn {margin-bottom: 20px;}
+/* /Hero Area */
+
+/* About Area */
+.about-video-content {margin-bottom: 30px;}
+.about-video-text li {font-size: 12px;}
+.about-video-text li i.fa {margin-right: 15px;}
+/* /About Area */
+
+/* Feature Area */
+.feature-icon {position: relative !important; margin-bottom: 20px;}
+.features-img {text-align: center; margin-top: 40px;}
+.single-feature-wrap {margin-bottom: 40px; text-align: center;}
+.feature-text {margin-right: 0;}
+.features-text-content.right .feature-text {margin-left: 0; margin-right: 0;}
+/* /Feature Area */
+
+/*  Counter area */ 
+.map-subcribe-text, .single-counter-area {margin-bottom: 30px;}
+/*  /Counter area  */
+
+/*  Map area */ 
+.map-subcribe-text .bordered-btn {margin-top: 15px;}
+/*  /Map area */
+
+/*  Pricing area */ 
+.single-pricing-table-area.active {margin-bottom: 40px; margin-top: 40px;}
+.pricing-table-body {height: 210px; padding: 30px 5px;}
+.pricing-table-head {padding: 30px 15px 0 15px;}
+.pricing-header {margin-left: 20px;}
+.pricing-btn .bordered-btn {width: 190px;}
+.switch {width: 80px; height: 40px;}
+.slider:before {height: 30px; width: 30px;}
+.pricing-switch-arae span.right {right: 0%;}
+.pricing-switch-arae span {
+    left: 15%;
+    top: 10px;
+    font-size: 12px;
+}
+.pricing-arrow-area {right: 0; font-size: 12px;}
+/*  /Pricing area  */
+
+/*  Team */
+.single-team-area  {margin-bottom: 30px;}
+.home-team-wrap {margin-bottom: 200px;}
+/*  /Team  */
+
+/* Google map */
+.map {height: 400px;}
+/* /Google map */
+
+/* home contact */
+.contact-form-area, .contact-address-area {float: none; width: 100%;}
+.home-contact-area {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.contact-address-area {padding-bottom: 60px;}
+/* /home contact */
+
+/*  subscribe newsletter  */
+.subscribe-newsletter-area input {width: 68%;}
+.subscribe-form {padding-top: 32px;}
+.subscribe-newsletter-area {top: -55%;}
+/*  /subscribe newsletter  */
+
+/*  Footer  */
+.footer-copyright-area {text-align: center;}
+.copyright-text {margin-top: 0; margin-bottom: 20px;}
+.social-links {text-align: center !important;}
+/*  /Footer  */
+
+/* App screen carousel */
+.app-screen-fixed-image {width: 250px;}
+.single-app-screen-div {height: 400px;}
+.single-app-screen-div img {height: 100%; padding: 0 30px;}
+/* /App screen carousel */
+
+/* Download App Area */
+.download-app-img {margin-bottom: 20px;}
+/* /Download App Area */
+
+
+}
+
